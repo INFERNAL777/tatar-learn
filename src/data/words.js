@@ -1,0 +1,48 @@
+// src/data/words.js
+
+export const themes = {
+  spider: {
+    id: 'spider',
+    nameRu: 'Мир паука',
+    nameTt: 'Үрмәкүч дөньясы',
+    emoji: '🕷️',
+    color: '#7c3aed',
+    colorLight: '#f3e8ff',
+    colorBorder: '#d8b4fe',
+    colorDark: '#5b21b6',
+    words: [
+      { id: 1, tt: 'Үрмәкүч',       ru: 'паук',             emoji: '🕷️' },
+      { id: 2, tt: 'Үрмәкүч торы',  ru: 'паутина',          emoji: '🕸️' },
+      { id: 3, tt: 'Батыр',          ru: 'герой',            emoji: '🦸' },
+      { id: 4, tt: 'Көч',            ru: 'сила',             emoji: '💪' },
+      { id: 5, tt: 'Шәһәр',          ru: 'город',            emoji: '🏙️' },
+      { id: 6, tt: 'Очу',            ru: 'летать',           emoji: '🚀' },
+      { id: 7, tt: 'Дошман',         ru: 'враг',             emoji: '😈' },
+      { id: 8, tt: 'Дус',            ru: 'друг',             emoji: '🤝' },
+      { id: 9, tt: 'Йөгерү',         ru: 'бежать',           emoji: '🏃' },
+      { id: 10, tt: 'Кыю',           ru: 'смелый',           emoji: '⚡' },
+    ],
+  },
+  cars: {
+    id: 'cars',
+    nameRu: 'Мир машин',
+    nameTt: 'Машиналар дөньясы',
+    emoji: '🚗',
+    color: '#16a34a',
+    colorLight: '#dcfce7',
+    colorBorder: '#86efac',
+    colorDark: '#15803d',
+    words: [
+      { id: 1, tt: 'Машина',         ru: 'машина',           emoji: '🚗' },
+      { id: 2, tt: 'Тәгәрмәч',       ru: 'колесо',           emoji: '🛞' },
+      { id: 3, tt: 'Бензин',         ru: 'бензин',           emoji: '⛽' },
+      { id: 4, tt: 'Ярыш машинасы',  ru: 'гоночная машина',  emoji: '🏎️' },
+      { id: 5, tt: 'Ачкыч',          ru: 'гаечный ключ',     emoji: '🔧' },
+      { id: 6, tt: 'Юл',             ru: 'дорога',           emoji: '🛣️' },
+      { id: 7, tt: 'Күпер',          ru: 'мост',             emoji: '🌉' },
+      { id: 8, tt: 'Тиз',            ru: 'быстро',           emoji: '💨' },
+      { id: 9, tt: 'Гараж',          ru: 'гараж',            emoji: '🏠' },
+      { id: 10, tt: 'Йөрү',          ru: 'ехать',            emoji: '🚦' },
+    ],
+  },
+}
